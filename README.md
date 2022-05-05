@@ -1,9 +1,7 @@
 ## textual-analysis
 ### Analysis of tweets about Facebook/Meta
 
-The dataset comprises 2000 most recent tweets with the hashtag #facebook and #meta. Amongst others it contains these variabes: tweet text, user id, screenname, time of creation, etc
-
-For this project, I will address the following questions:
+Textual analysis is important for businesses to understand what the audience talk about the company, and most importantly, if they talk about it positively or negatively. This is a great tool to use after marketing campaigns to understand if people liked it or not. To practice, I use a dataset containing 2000 most recent tweets with the hashtag #facebook and #meta to address the following questions:
 1. Which words are most commonly used in the dataset?
 2. Do we find anything interesting when looking at a word cloud of the data?
 3. What are the most common sentiments in the tweets?
@@ -51,7 +49,7 @@ library(wordcloud2)
 
 wordcloud2(data=data_count, size=1.6, color='random-dark')
 ```
-![](wordcloud.png)
+![](worldcloud.png)
 From the world cloud we can see that people talk a lot about crypto currencies like bitcoin, dogecoin, nft, etc, because these are the most popular words after social media platform names(facebook, meta, etc).
 
 
